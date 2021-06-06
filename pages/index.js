@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar'
 import Home from '../components/Home'
 import Menu from '../components/Menu'
 import Comments from '../components/Comments'
+import Footer from '../components/Footer'
 
 const Index = () => {
   return (
@@ -11,6 +12,7 @@ const Index = () => {
       <Home />
       <Menu />
       <Comments />
+      <Footer />
     </div>
   )
 }
