@@ -32,7 +32,7 @@ const Menu = () => {
       <div>
         <ul className='block flex-wrap justify-around p-10 sm:grid grid-cols-3 justify-items-center '>
           {MenuData.map(item => (
-            <li className=' h-52 w-52 p-2 border border-black rounded-md bg-red-100 mb-2'>
+            <li className=' h-52 w-52 p-2 shadow-xl rounded-lg bg-red-100 mb-2'>
               <div>
                 <div className=' h-24 overflow-hidden'>
                   <img className=' object-cover' src={item.image} alt={item.title} />
