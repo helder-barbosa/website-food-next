@@ -10,7 +10,7 @@ const Home = () => {
           </p>
         </div>
         <div>
-          <div className=" p-16 border-black border" >
+          <div className=" bg-gray-700" >
             Image
           </div>
         </div>
