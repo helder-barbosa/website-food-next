@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className=" h-screen bg-yellow-100">
+    <div className=" h-auto bg-yellow-100">
       <div className=" block flex-wrap justify-around p-10 sm:grid grid-cols-2 ">
         <div className=" p-10 ">
           <h1 className=' text-3xl font-semibold'>Restaurant Paris</h1>
@@ -10,8 +10,8 @@ const Home = () => {
           </p>
         </div>
         <div>
-          <div className=" bg-gray-700" >
-            Image
+          <div>
+            <img src="https://w7.pngwing.com/pngs/60/537/png-transparent-chef-cooking-cooking-kitchen-face-food-thumbnail.png" />
           </div>
         </div>
       </div>
