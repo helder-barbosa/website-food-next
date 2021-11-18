@@ -24,7 +24,7 @@ const CommentsData = [
 
 const Comments = () => {
   return (
-    <div className=" h-auto bg-yellow-100 p-10 mx-auto">
+    <div className=" h-screen bg-yellow-100 p-10 mx-auto">
       <div className='text-2xl text-black text-center'>
         <h1 className=' text-3xl'>Comentários dos Clientes :</h1>
       </div>

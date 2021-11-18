@@ -23,8 +23,8 @@ const MenuData = [
 
 const Menu = () => {
   return (
-    <div className=" h-auto bg-gray-600 p-10">
-      <div className='text-2xl text-white text-center'>
+    <div className=" h-screen bg-gray-600 ">
+      <div className='text-2xl p-4 text-white text-center'>
         <h1 className=' text-3xl'>Menu</h1>
         <h2>Algumas opções do cardápio :</h2>
       </div>
@@ -32,7 +32,7 @@ const Menu = () => {
       <div>
         <ul className='block flex-wrap justify-around p-10 sm:grid grid-cols-3 justify-items-center '>
           {MenuData.map(item => (
-            <li className=' h-52 w-80 p-5 shadow-xl rounded-lg bg-red-100 mb-3'>
+            <li className=' h-52  shadow-xl rounded-lg bg-red-100 mb-3 sm:w-64 p-5'>
               <div>
                 <div className=' h-24 overflow-hidden'>
                   <img className=' object-cover' src={item.image} alt={item.title} />

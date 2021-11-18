@@ -7,8 +7,8 @@ import Footer from '../components/Footer'
 
 const Index = () => {
   return (
-    <div>
-      <NavBar />
+    <div >
+
       <Home />
       <Menu />
       <Comments />
